@@ -1,0 +1,1 @@
+sudo unsquashfs filesystem.squashfs
