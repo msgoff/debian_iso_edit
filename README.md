@@ -11,7 +11,7 @@ sudo apt-get install qemu qemu-kvm libvirt-bin
 sudo unsquashfs filesystem.squashfs  
 rm filesystem.squashfs  
 sudo mksquashfs squashfs-root/ filesystem.squashfs -e boot  
-
+cp filesystem.squashfs  into_your_live_directory_from_the_iso
 
 
 
