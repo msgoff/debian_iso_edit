@@ -7,7 +7,7 @@ sudo apt-get install squashfs-tools
 sudo apt-get install genisoimage  
 sudo apt-get install qemu qemu-kvm libvirt-bin  
 
-==============================
+==============================  
 sudo unsquashfs filesystem.squashfs  
 rm filesystem.squashfs  
 sudo mksquashfs squashfs-root/ filesystem.squashfs -e boot  
