@@ -3,9 +3,12 @@ for quick edits of debian live
 
 requires  
 
-apt-get install squashfs-tools   
-apt-get install genisoimage  
-apt-get install qemu qemu-kvm libvirt-bin  
+sudo apt-get install squashfs-tools   
+sudo apt-get install genisoimage  
+sudo apt-get install qemu qemu-kvm libvirt-bin  
+
+==============================
+sudo unsquashfs filesystem.squashfs
 
 
 general outline of the process  
