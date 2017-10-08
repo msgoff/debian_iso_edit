@@ -10,5 +10,5 @@ genisoimage \
     -no-emul-boot \
     -boot-load-size 4 \
     -boot-info-table \
-    -output /media/user/rd_0/mike/projects/wipeq2/T12_writeable/T13.iso \
-    /media/user/rd_0/mike/projects/wipeq2/T12_writeable/ 
+    -output /mnt/ramdisk/pelicanhpc.iso \
+    /mnt/ramdisk/iso/
