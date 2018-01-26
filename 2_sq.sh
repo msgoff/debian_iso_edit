@@ -1,7 +1,4 @@
-#remove the existing iso
-rm T12.iso
-#remove the old filesystem.squashfs 
-rm filesystem.squashfs
+ rm filesystem.squashfs
 #make the new squash fs bootable
 sudo mksquashfs squashfs-root/ filesystem.squashfs -e boot
 #move the fs into your writeable iso mount 
