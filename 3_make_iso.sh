@@ -3,7 +3,7 @@ genisoimage \
     -volid "Debian Live" \
     -cache-inodes \
     -joliet \
-    -hfs \
+    -udf \
     -full-iso9660-filenames \
     -b isolinux/isolinux.bin \
     -c isolinux/boot.cat \
