@@ -1,6 +1,9 @@
 # debian_iso_edit
 for quick edits of debian live
 
+mount -t proc none /mnt/chroot/proc  
+mount -o bind /dev /mnt/chroot/dev  
+
 requires  
 
 sudo apt-get install squashfs-tools   
