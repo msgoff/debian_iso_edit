@@ -1,3 +1,11 @@
+installed="$(which genisoimage |wc -l)"
+if [[ $installed -eq 0 ]];
+then
+	sudo apt install -y genisoimage
+	sudo apt install syslinux-utils
+
+fi
+
 genisoimage \
     -rational-rock \
     -volid "Debian Live" \
@@ -10,5 +18,7 @@ genisoimage \
     -no-emul-boot \
     -boot-load-size 4 \
     -boot-info-table \
-    -output /mnt/ramdisk/pelicanhpc.iso \
-    /mnt/ramdisk/iso/
+    -output /home/user/pelicanhpc.iso \
+    /home/user/medium/
+
+isohybrid --partok /home/user/pelicanhpc.iso
