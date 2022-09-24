@@ -1,0 +1,2 @@
+lb config --linux-packages linux-image-5.19.0-trunk
+echo "deb http://deb.debian.org/debian/ experimental main" > config/archives/experimental.list.chroot
